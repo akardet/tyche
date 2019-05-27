@@ -1,0 +1,16 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; /* Set all elements to inherit from body */
+}
+
+html {
+  /* font-size: 100% = 16px  |  10/16 = .625 */
+  font-size: 62.5%; /* Set the default font size to easy number to divide by (px/root size = rem) */
+}
+
+body {
+  box-sizing: border-box;
+}
