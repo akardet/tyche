@@ -1,0 +1,41 @@
+.container {
+  width: 80vw;
+  max-width: 800px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 2fr 1fr 1fr;
+}
+
+.name {
+  grid-column: 1 / -1;
+
+}
+
+.title {
+  grid-column: 1 / 2; 
+
+}
+
+.metalinks {
+  grid-column: 2 / 4;
+
+}
+
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column: 1 / -1;
+  background-color: $primary-font-color;
+  color: $primary-background-color;
+  align-items: center;
+  justify-items: center;
+  border-radius: 1rem;
+  box-shadow: 5px 5px #88888840;
+}
+
+.contact-subcontainer {
+  grid-column: span 1;
+  font-size: 1.5rem;
+}
+
+

@@ -14,3 +14,9 @@ html {
 body {
   box-sizing: border-box;
 }
+
+main {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}

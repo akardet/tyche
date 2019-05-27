@@ -1,3 +1,13 @@
-.duck {
-  color: red;
+html {
+  font-family: 'Futura PT', sans-serif;
+  color: $primary-font-color;
+}
+
+.name {
+  font-size: 8rem;
+  font-weight: 700;
+}
+
+.contact li {
+  list-style: none;
 }
