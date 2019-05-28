@@ -1,0 +1,38 @@
+.profile {
+  display: grid;
+  grid-template-columns: auto 1fr 1fr;
+  grid-template-rows: 2fr 1fr 1fr;
+  min-width: 800px;
+
+  &__name {
+    grid-column: 1 / -1;
+    align-self: end;
+  }
+
+  &__title {
+    grid-column: 1 / 2;
+  }
+
+  &__glyph{
+    grid-column: 2 / 4;
+    padding-left: 2rem;
+  }
+}
+
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column: 1 / -1;
+  align-items: center;
+  justify-items: center;
+
+  border-radius: 1rem;
+  box-shadow: 5px 5px #88888860;
+
+  background-color: $primary-font-color;
+  color: $primary-background-color;
+
+  &__item {
+    grid-column: span 1;
+  }
+}

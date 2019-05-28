@@ -1,13 +1,33 @@
 html {
   font-family: 'Futura PT', sans-serif;
   color: $primary-font-color;
+  letter-spacing: .2rem;
 }
 
-.name {
-  font-size: 8rem;
-  font-weight: 700;
+h1 {
+  font-size: 6rem;
 }
 
-.contact li {
-  list-style: none;
+p {
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+.profile {
+  &__name {
+    font-size: 8rem;
+    font-weight: 700;
+  }
+
+  &__title {
+    font-size: 2.3rem;
+  }
+}
+
+.contact {
+  &__item {
+    &--text {
+      font-size: 1.5rem;
+    }
+  }
 }
